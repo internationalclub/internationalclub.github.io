@@ -1,6 +1,7 @@
 /*------------------------- Layout styles ------------------------*/
 body {
-	background:url(../images/bg-body.jpg);
+	background-repeat:no-repeat;
+	background:#ffffd3;
 	margin:0;
 }
 a {
@@ -12,12 +13,12 @@ a img {
 }
 .border {
 	position:relative;
-	margin: 25px 0;
+	/*margin: 25px 0;*/
 	-moz-box-shadow:    3px 3px 4px 0px #a3a3a3;
 	-webkit-box-shadow: 3px 3px 4px 0px #a3a3a3;
 	box-shadow:         3px 3px 4px 0px #a3a3a3;
 	border-top:1px solid #9a9a9a;
-	background:#e3e3e3;
+	/*background:#e3e3e3;*/
 }
 .page {
 	width:960px;
@@ -25,11 +26,12 @@ a img {
 	overflow:hidden;
 }
 #bg {
-	background:url(../images/bg-sidebar.jpg);
+	background:url(../images/background.jpg);
+	background-repeat:no-repeat;
 	height: 99.8%;
 	left: 0;
 	margin: 0;
-	position: absolute;
+	position: fixed;
 	text-indent: -99999px;
 	width: 51%;
 	z-index: 0;
@@ -189,13 +191,13 @@ a img {
 	float:left;
 	width:728px;
 	position: relative;
-	background:url(../images/bg-body.png) repeat-y #e3e3e3;
+/*	background:url(../images/bg-body.png) repeat-y #e3e3e3;*/
 	min-height:1394px;
 	height:auto;
 	padding: 0 0 25px;
 	border-color: #dfdfdf;
-	border-style: none none none solid;
-	border-width: 1px;
+	/*	border-style: none none none solid;*/
+    /*	border-width: 1px;*/
 }
 .body div {
 	margin:23px 0 0 21px;

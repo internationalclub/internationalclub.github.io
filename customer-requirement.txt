@@ -1,0 +1,6 @@
+24/10/2014:
+#1: No Sponsor on the navigation
+#2: Sponsor will be moved to HOME.
+#3: facebook nav will be moved to the right column
+#4: Change the color, background depend on the conent displaying (optional)
+
