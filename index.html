@@ -3,8 +3,14 @@
 <html>
   <head>
 	<meta charset="UTF-8">
+
 	<title>RMIT International Club - Italia Festival Days</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.countdown.css"> 
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.plugin.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+
   </head>
   <body>
 	<div id="fb-root"></div>
@@ -32,36 +38,41 @@
 			<li>
 			  <a href="about.html">About Us</a>
 			</li>
+			<br /> <br /><br /><br />			<br /> <br /><br />
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FIC.RMITSGS&amp;width=200&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:220px; height:75px;" allowTransparency="true"></iframe>
 		  </ul>
-		 
 		</div>
 		<div class="body">
-		  <div>
-			<h2>Italian Festival Days</h2>
-			<p>
-			  This website template has been designed by Free Website Templates
-			  for you, for free. You caasdn replace all this text with your own
-			  text. Italian Festival Days Italian Festival Days Italian Festival
-			  Days Italian Festival Days Italian Festival Days Italian Festival
-Italian Festival Days			  Days Italian Festival Days Italian Festival Days 
-			</p>
-			<img src="images/tree.jpg" alt="">
+		  <div style="box-shadow: none; background: none">
+			<img src="images/tree.jpg" alt="" height="auto" width="auto">
+			<div id="timecounter"></div>
+			
 			<div class="portfolio">
 			  <h2>Sponsors</h2>
 			  <h3><span>Sponsors</span></h3>
 			  <ul>
 				<li>
 				  <a href="http://ducati.vn/">
-					<img src="images/ducati.jpg" alt="">
+					<img src="images/sponsors/logo3.jpg" alt=""/>
 				  </a>
 				  <a href="http://ducati.vn/" >Ducati Viet Nam</a>
 				</li>
+				
 				<li>
 				  <a href="http://www.yan.vn/">
-					<img src="images/yan.png" alt="">
+					<img src="images/sponsors/logo4.jpg" alt=""/>
 				  </a>
 				  <a href="http://www.yan.vn/">YAN News</a>
 				</li>
+				
+				<li>
+				  <a href="http://www.yan.vn/">
+					<img src="images/sponsors/logo4.jpg" alt=""/>
+				  </a>
+				  <a href="http://www.yan.vn/">YAN News</a>
+				</li>
+				
+
 			  </ul>
 			</div>
 		  </div>
@@ -69,4 +80,11 @@ Italian Festival Days			  Days Italian Festival Days Italian Festival Days
 	  </div>
 	</div>
   </body>
+
+  <script> 
+	var eventCounter = new Date();
+	eventCounter = new Date(2014, 12 -1, 2); 
+	$('#timecounter').countdown({until: eventCounter}); 
+  </script>
+  
 </html>
