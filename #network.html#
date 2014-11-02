@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<title>RMIT International Club - Italia Festival Days</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+  </head>
+  <body>
+	<div id="fb-root"></div>
+	<div class="border">
+	  <div id="bg">
+		background
+	  </div>
+	  <div class="page">
+		<div  class="sidebar-clone"></div>
+		<div class="sidebar">
+		  <a href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
+		  <ul>
+			<li >
+			  <a href="index.html">Home</a>
+			</li>
+			<li>
+			  <a href="festival.html">Festival</a>
+			</li>
+			<li class="selected">
+			  <a href="network.html">Networking</a>
+			</li>
+			<li>
+			  <a href="news.html">Facts & News</a>
+			</li>
+			<li>
+			  <a href="about.html">About Us</a>
+			</li>
+		  </ul>
+		  			<br /> <br /><br /><br /><br /> <br /><br /> <br />
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FIC.RMITSGS&amp;width=200&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:220px; height:75px;" allowTransparency="true"></iframe>
+		</div>
+		<div class="body">
+		  <div>
+			<h2>Networking Event</h2>
+			<p>
+			  Enter a comfortable and friendly atmosphere at our networking
+			  event. The representatives from Italian companies will share
+			  knowledge about Italy culture and working tradition in their
+			  companies. You’ll also get the opportunity to meet agents from
+			  international companies and alumnus for more practical working
+			  experiences in the field. Lastly, don’t forget to enjoy tasty
+			  Italian dishes at tea break.Find your opportunity at Italian
+			  Networking events. Only 100 tickets available! <br /> <br />
+			  It is our club's honor to welcome the Consulate General of Italy
+			  to our Net Working, You will have the chance to explore Italy in a
+			  way you cannot find through any books or Internet
+			  
+			</p>
+
+			<p>Date: Tuesday week 8, 2/12/2014 - starts at 5pm <br />
+			  Location: Auditorium </p>
+			<h2>Information</h2>
+			<p>
+			  <table style="width:80%;margin-left:23px;color:#808080;" border="3">
+				<th>Time</th>
+				<th>Location</th>
+				<th>Ticket</th>
+				
+				<tr>
+				  <td>02/12/2014</td>
+				  <td>Auditorium</td>
+				  <td>50,000VND</td>
+				</tr>
+			  </table>
+			</p>
+			<h2>Schedule</h2>
+			
+			<p>5:00pm-6:00pm: Welcoming guests ( Door will be closed at 5:30 )<br />
+			  6:00pm-6:30pm: Opening speech, introduce sponsor and
+			  representatives from Italian companies <br />
+			  6:30pm-7:00pm: Insight of Italy and Italian Industries<br />
+			  7:00pm-9:00pm: Tea break and Net Working
+			</p>
+			
+			<h2>Guests</h2>
+			
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </body>
+</html>
