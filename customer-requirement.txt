@@ -4,3 +4,8 @@
 #3: facebook nav will be moved to the right column
 #4: Change the color, background depend on the conent displaying (optional)
 
+18/11/2014:
+#1: change the logo of event to IC icon, take image with words
+#2: insert register icon and the url
+#3: fact and news
+#4: continue, color red
